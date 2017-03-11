@@ -25,3 +25,7 @@ git commit -m "Adding new files"
 git rm test.txt
 git commit -m "Remove test.txt"
 
+git pull origin master
+
+git fetch
+git checkout feature/test
