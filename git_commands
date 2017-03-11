@@ -29,3 +29,6 @@ git pull origin master
 
 git fetch
 git checkout feature/test
+
+git branch
+git branch -d branchname    Deletes 'branchname'
