@@ -17,3 +17,11 @@ git push origin master
 git config --global push.default simple
 
 git push
+
+nano test.txt
+git add --all
+git commit -m "Adding new files"
+
+git rm test.txt
+git commit -m "Remove test.txt"
+
