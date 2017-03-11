@@ -1,0 +1,19 @@
+git config -- global user.name shaun
+git config -- global user.name "Shaun Hines"
+git config --global user.name "Shaun Hines"
+git config --global user.email "shaunhines@gmail.com"
+git config --list
+
+mkdir programming
+cd programming
+git clone https://github.com/shaunhines/ACG_Tutorial.git 
+ 
+git status
+
+git commit -am "Update No2 to README"
+
+git push origin master
+
+git config --global push.default simple
+
+git push
