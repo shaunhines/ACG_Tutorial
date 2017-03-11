@@ -32,3 +32,10 @@ git checkout feature/test
 
 git branch
 git branch -d branchname    Deletes 'branchname'
+
+git pull
+git tag
+git tag -a v0.2 -m "This is version v0.2"
+git tag
+git push origin --tags
+
